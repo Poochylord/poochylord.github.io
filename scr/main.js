@@ -1,9 +1,9 @@
 const btn = document.getElementById("submit")
-const input = document.getElementById("title")
-const text = document.getElementById("hi")
+const inputthing = document.getElementById("title")
+const tx = document.getElementById("hi")
 
 function yes(){
-  text.innerHTML = input.value
+  tx.innerHTML = inputthing.value
 }
 
 btn.addEventListener("click", yes);
