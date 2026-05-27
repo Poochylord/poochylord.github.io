@@ -6,4 +6,4 @@ function yes(){
   tx.innerHTML = inputthing.value
 }
 
-btn.addEventListener("click", yes);
+await btn.addEventListener("click", yes);
