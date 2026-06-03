@@ -1,9 +1,13 @@
-const btn = document.getElementsByClassName("button-submit")
-const inputthing = document.getElementById("info")
-const tx = document.getElementById("hi")
+const content = document.querySelector(".content")
 
-function yes(){
-  tx.innerHTML = inputthing.value
+function toSubmission(){
+	content.innerHTML = '<input type="text" class="beatmap-link" placeholder = "Beatmap link"><br>'
+	
+	const submitButton = document.createElement("input");
+	submitButton.type = "button"
+	submitButton.className = "button-submit"
+	submitButton.value = "Submit"
+	
+	content.appendChild(submitButton)
 }
-
-btn.addEventListener("click", yes);
+document.getElementById("oauth").addEventListener("click", toSubmission)

@@ -1,18 +1,26 @@
 body {
-	background-color: #cfdaff;
-	font: 1.2rem Comic Sans MS;
+	background-color: #ffcd82;
+	font: 1.2rem Bahnschrift;
 }
 
-.input-container {
+.content {
 	align-items: center;
-	margin-top: 20%;
-	background-color: #f0f0f0;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-color: #fff;
 	width: 75%;
 	margin-left: 12.5%;
 	text-align: center;
 	border-radius: 20px;
 	z-index: 2;
-	padding-bottom: 1%
+	padding: 20px
+}
+
+p{
+	text-align: left;
+	font-size: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 .beatmap-link{
@@ -33,15 +41,32 @@ textarea{
 .button-submit{
 	width: 75%;
 	height: 35px;
-	background-color: #ff7729;
+	background-color: #ff504a;
 	color: white;
 	font-weight: bold;
 	font-size: 20px;
 	border-radius: 2px;
 	border-width: 1.5px
+	cursor: pointer;
+}
+
+.button-oauth:hover{
+	background-color: #ff352e;
 }
 
 .button-oauth{
-	
+	width: 75%;
+	height: 35px;
+	background-color: #ff7729;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 2px;
+	border-width: 1.5px;
+	cursor: pointer;
+}
+
+.button-oauth:hover{
+	background-color: #ff5d00;
 }
 
