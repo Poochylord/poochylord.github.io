@@ -46,11 +46,11 @@ textarea{
 	font-weight: bold;
 	font-size: 20px;
 	border-radius: 2px;
-	border-width: 1.5px
+	border-width: 1.5px;
 	cursor: pointer;
 }
 
-.button-oauth:hover{
+.button-submit:hover{
 	background-color: #ff352e;
 }
 
